@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:checked="true"
+            android:title="首页" />
+        <item
+            android:id="@+id/item_in"
+            android:icon="@android:drawable/btn_star_big_off"
+            android:title="国内" />
+        <item
+            android:id="@+id/item_out"
+            android:icon="@android:drawable/checkbox_off_background"
+            android:title="国外" />
+        <item
+            android:id="@+id/item_all"
+            android:icon="@android:drawable/ic_lock_idle_alarm"
+            android:title="综合" />
+    </group>
+
+    <item android:title="Sub item" >
+        <menu >
+            <item
+                android:id="@+id/item1"
+                android:icon="@android:drawable/btn_dialog"
+                android:title="Item" />
+            <item
+                android:id="@+id/item2"
+                android:icon="@android:drawable/ic_dialog_alert"
+                android:title="Item2" />
+        </menu>
+    </item>
+
+
+</menu>
